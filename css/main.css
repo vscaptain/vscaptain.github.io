@@ -226,51 +226,51 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 h2 {
-  font-size: 22px;
+  font-size: 26px;
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 @media (max-width: 767px) {
   h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 h4 {
-  font-size: 18px;
+  font-size: 22px;
 }
 @media (max-width: 767px) {
   h4 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 h5 {
-  font-size: 16px;
+  font-size: 20px;
 }
 @media (max-width: 767px) {
   h5 {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 h6 {
-  font-size: 14px;
+  font-size: 18px;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 p {
@@ -1856,7 +1856,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff13f0;
+  background: #c6ffb5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2379,6 +2379,29 @@ pre .javascript .function {
   transform: translate(-50%, -50%);
   color: #ccc;
 }
+#local-search-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 97%;
+  font-size: 18px;
+}
+.popup .fa-search {
+  padding: 8px 0;
+}
+.search-keyword {
+  border-bottom: 1px dashed #f00;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f00;
+}
+p.search-result {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0 2px 0;
+}
+#local-search-result {
+  height: 88%;
+  overflow: auto;
+}
 .site-uv,
 .site-pv,
 .page-pv {
@@ -2811,7 +2834,7 @@ hr {
 }
 .posts-expand .post-title {
   position: relative;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 400;
 }
 @media (max-width: 767px) {
